@@ -6,8 +6,8 @@
 //3.[スタート]ボタン押下でデスクトップに「スピッツ」フォルダが作成され、編集したファイルが出力されます
 
 
-CJM RESET
-CJM vr=2
+CJMP RESET
+CJMP vr=2
 CJM CUT,em=0,ev=2,cd=0
 #
 01.mp3
